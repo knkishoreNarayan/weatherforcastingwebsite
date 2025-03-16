@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cloud pink small fast"></div>
+        <div class="cloud blue large slow"></div>
+        <div class="cloud purple medium"></div>
+        <div class="cloud green small fast"></div>
+        <div class="cloud orange large medium"></div>
+        <div class="cloud blue small slow"></div>
+        
+
+
+        <h1>Weather Dashboard</h1>
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button id="search-btn">Search</button>
+        <button id="location-btn">Use My Location</button>
+        <div id="weather-result" class="hidden">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="humidity"></p>
+            <p id="wind-speed"></p>
+            <p id="weather-condition"></p>
+        </div>
+    </div>
+    <script src="simple.js"></script>
+</body>
+</html>
+,
